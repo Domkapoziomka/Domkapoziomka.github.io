@@ -5,29 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my first website</title>
+    <linkrel="stylesheet href="https://fonts.googleapis.com/css2?family=Life+Savers&display=swap" >
+    <link rel="stylesheet" href="styles.css">
+   
 </head>
 <body>
+    <!-- <div class="first-class" id="first-id">
+        <div class="second-class">
+            <h1 style="color:green;" id="first-id" class="third-class">Text</h1>
+        </div>
+    </div> -->
+
+
     <header>
-        <h1> Welcolme to&nbsp;my&nbsp;first&nbsp;website!</h1>
+        <h1> Welcolme to my first website!</h1>
     <a href="contact.html">Contact me</a>
-    <link rel="stylesheet" href="styles.css">
+    
 </header>
-<article> <h3>This is my first blog post</h3>
+
+
+<div id="main-content">
+    <section id="articles"><article> 
+
+    <h3>This is my first blog post</h3>
    <p>This is the content of my first blog post</p>
    <br></article>
 
   <article>
-   <h3>This is my second blog post</h3>
+   <h3 style=" color:rgb(48, 138, 138);">This is my second blog post</h3>
    <p>This is the content of my second blog &lt;something&gt; post</p>
    <br></article>
 
-   <article><h3>This is my third blog post</h3>
+   <article>
+   <h3>This is my third blog post</h3>
    <p>This is the content of my third blog post</p>
-   <small><sup class="sup_element" style="color:red">*</sup>Another sentence</small></article>
-   <br> 
-   <br>
-   <div>My skills
-    <table border="1">
+   <small><sup class="sup_element" style="color:rgb(172, 96, 96)">*</sup>Another sentence</small></article>
+</section>
+
+   <div id="skills">
+   <b style="font-size: 34px; font-weight:900; color:rgb(11, 87, 40);">My skills</b> 
+    <table>
         <tr>
             <th>Technology</th>
             <th>Level</th>
@@ -38,13 +55,15 @@
         </tr> 
         <tr>
             <td>CSS</td>
-            <td>0</td>
+            <td>good</td>
         </tr>
     </table>
    </div>
-<br>
+</div>
+
   <footer>
-<div>Footer area. &copy; <strong>Me</strong> & <b>My Tutor</b></div>
+<div>Footer area. &copy; <strong>Me</strong> & <b>My Tutor</b>
+<!--<p>Anoter content of the footer</p> --></div>
 </footer>
 <script src="scripts.js"></script>
 </body>
